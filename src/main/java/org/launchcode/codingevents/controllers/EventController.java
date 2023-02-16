@@ -23,5 +23,8 @@ public class EventController {
        return "events/index";
 
    }
-
+   @GetMapping("create")
+   public String renderCreateEventForm() {
+      return "events/create";
+   }
 }
